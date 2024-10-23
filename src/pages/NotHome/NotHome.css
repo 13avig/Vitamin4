@@ -1,0 +1,16 @@
+/* Style for the button */
+button {
+    background-color: #007bff; /* Blue background */
+    color: white; /* White text */
+    font-size: 1.5rem; /* Large font size */
+    font-family: 'Arial', sans-serif; /* Nice font */
+    padding: 10px 20px; /* Padding for a larger button */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Slightly rounded corners */
+    cursor: pointer; /* Change cursor to pointer */
+    transition: background-color 0.3s ease; /* Smooth hover transition */
+  }
+  
+  button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }

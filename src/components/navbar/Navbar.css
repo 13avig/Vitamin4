@@ -1,0 +1,41 @@
+.navbar {
+    display: flex;
+    justify-content: space-between; /* Separates left and right content */
+    align-items: center;
+    background-color: #333; /* Dark background */
+    padding: 1rem;
+    color: white; /* Text color */
+    text-decoration: none;
+}
+
+.heading {
+    font-size: 2.5rem; /* Larger font for website title */
+    font-weight: bold;
+    margin: 0;
+    color: white; /* Ensures title remains white */
+}
+
+.navbar-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.links {
+    display: flex; /* Display links side by side */
+    gap: 1rem; /* Adds space between the links */
+}
+
+.links li {
+    margin: 0;
+}
+
+.links li a {
+    color: white !important; /* Force links to stay white */
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.links li a:hover {
+    color: white; /* Prevent hover from changing the color */
+}
